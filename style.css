@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(24, 7, 62, 1) 74%, rgba(40, 4, 107, 1) 99%);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main form {
+    color: white;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+}
+
+.row {
+    padding: 2px;
+}
+
+.calculadora .value {
+    background: white;
+    padding: 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.calculadora .value:hover {
+    background: rgba(196, 196, 196, 0.7);
+}
+
+.calculadora span {
+    display: grid;
+    width: 25%;
+    height: 60px;
+    color: #fff;
+    background: #0c2835;
+    place-items: center;
+    border-radius: 60px;
+    transition: all .3s ease;
+}
+
+.calculadora span:hover {
+    background: #1c5772;
+}
+
+.calculadora span:active {
+    background: #5b62ce;
+}
+
+.calculadora span.clear {
+    width: 50%;
+    background: rgb(150, 148, 148);
+}
+
+.calculadora span.clear:hover {
+    background: #1c5772;
+}
+
+.calculadora span.clear:active {
+    background: rgb(32, 32, 32);
+}
+
+.calculadora span.equacao {
+    background: rgb(3, 31, 43);
+}
+
+.calculadora span.equacao:hover {
+    background: #1c5772;
+}
