@@ -1,3 +1,3 @@
-# CALCULADORA-Bootstrap
+# calculator
 
-Site para testar: https://allansgx.github.io/CALCULADORA-Bootstrap/
+Site: https://allansgx.github.io/CALCULADORA-Bootstrap/
